@@ -1,0 +1,17 @@
+html {
+  background: #5FD25F;
+  text-align: center;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 90%;
+  border-bottom: 5px solid #FFFF66;
+  color: #FFFF66;
+}
+
+#container {
+padding-top: 30px;
+
+}
+

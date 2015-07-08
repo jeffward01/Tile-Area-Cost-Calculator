@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Area Tile Cost Calculator</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<header>
+  <h1>Area Tile Cost Calculator</h1>
+  <h2>By: Jeff Ward</h2>
+</header>
+
+<body>
+  <div id="container">
+    <form>
+      <label>Enter the dollar Cost of the tile per sq foot. Ex: 12 </label>
+      <br>
+      <input type="number" placeholder="Cost per Sqft" id="cost" onkeypress="return isNumberKey(event)">
+      <br>
+      <br>
+      <label>Enter in the room's dimensions in feet. Ex: 10</label>
+      <br>
+      <br>
+      <label>Width: </label>
+      <input type="number" placeholder="Width" id="width" onkeypress="return isNumberKey(event)">
+      <label>Length: </label>
+      <input type="number" placeholder="Length" id="length" onkeypress="return isNumberKey(event)">
+    </form>
+    <button type="button" onclick="calc()">Calculate</button>
+    <button type="button" onclick="reset()">Rest</button>
+    <div id="output"></div>
+    <div id="output1"></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
